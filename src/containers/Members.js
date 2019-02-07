@@ -124,6 +124,9 @@ class Members extends React.Component {
           </Col>
 
       </Row>
+      <iframe width="100%" height="180" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/570145548&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=false"></iframe>
+
+      <iframe width="100%" height="180" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/478550133&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=false"></iframe>
 
             <div className="zone" style={{textAlign: "right", paddingTop: 15}}>
             <h2><i>"Ameaçar um homem de assédio é abuso de poder"<br />Kazuma Yuuji</i></h2>

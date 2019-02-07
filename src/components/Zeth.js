@@ -133,10 +133,10 @@ class Me extends React.Component {
       <p style={pStyle}>Contacts</p>
       <Row>
         <Col xs={{span: 24}} lg={{span: 12}}>
-          <DescriptionItem title="Email" content="kovacs@guildstudios.com.br" />
+          <DescriptionItem title="Email" content={(<a href="mailto:kovacs@guildstudios.com.br" targer="_blank">kovacs@guildstudios.com.br</a>)}/>
         </Col>
         <Col xs={{span: 24}} lg={{span: 12}}>
-          <DescriptionItem title="Phone Number" content="+55 79 9 9145 7802" />
+          <DescriptionItem title="Phone Number" content={(<a href="tel:5579991457802" targer="_blank">+55 79 991 457 802</a>)} />
         </Col>
       </Row>
       <Row>
