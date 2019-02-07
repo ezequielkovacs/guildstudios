@@ -90,12 +90,12 @@ handleClick = (e) => {
            mode="horizontal"
          >
            <Menu.Item key="home">
-           <Link to="/">
+           <Link to="/gstudios">
              <span style={{color: "#009eec"}}><Icon type="home" />Guild Studios</span>
             </Link>
            </Menu.Item>
            <Menu.Item key="members">
-             <Link to="/members"><span style={{color: "#009eec"}}><Icon type="fire" />Members</span></Link>
+             <Link to="/"><span style={{color: "#009eec"}}><Icon type="fire" />Members</span></Link>
            </Menu.Item>
 
            <Menu.Item key="curioso">

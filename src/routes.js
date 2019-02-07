@@ -9,7 +9,8 @@ import Vai from './containers/Curioso';
 const BaseRouter = () => (
   <div>
 
-    <Route exact path="/" component={Dashboard} />{" "}
+    <Route exact path="/gstudios" component={Dashboard} />{" "}
+    <Route exact path="/" component={Members} />{" "}
     <Route exact path="/members" component={Members} />{" "}
     <Route exact path="/members/kovacs" component={Me} />{" "}
     <Route exact path="/curioso" component={Vai} />{" "}
