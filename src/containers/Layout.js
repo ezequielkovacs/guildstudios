@@ -137,11 +137,13 @@ handleClick = (e) => {
           </Row>
           </>
         </Content>
-        <Footer style={footerStyle}>
+        <Footer style={{textAlign: "center"}}>
+        <Row>
           <p>
           All rights of code reserved to <a href onClick={this.onClickEvent}>Ezequiel Kovacs</a> - 2019<br />
           This page only share professional Jobs from the members of Guild Studios. Hereby All Rights reserved to Owner.
           </p>
+          </Row>
           <Drawer
                 width="640"
                 placement="right"
