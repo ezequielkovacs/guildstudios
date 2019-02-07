@@ -1,0 +1,41 @@
+.ant-carousel .slick-slide {
+  text-align: center;
+
+  width: 100%;
+  line-height: 50px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h2 {
+  color: #fff;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.ant-carousel .slick-slide h4 {
+  color: #fff;
+}
+
+.menu-custom {
+  background-color: #222222 ;
+  height: auto;
+}
+
+.menu-custom-button:active {
+  background-color: #fff ;
+}
+
+.menu-custom-div {
+  background-color: #222222 ;
+  height: auto;
+}
+
+
+.content-col {
+  padding: 24px;
+  height: 100%;
+  position: inherit;
+}
