@@ -24,8 +24,8 @@ class Members extends React.Component {
     return(
       <DocumentMeta {...meta}>
       <>
-      <Row gutter={24} type="flex" justify="start" align="middle" style={{paddingRight: 10}}>
-            <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{paddingTop: 20}}>
+      <Row gutter={24} type="flex" justify="start" align="middle">
+            <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{padding: 20}}>
               <Card
           style={{ width: 300 }}
           cover={<Link to="/members/kovacs/"><img alt="example" width="300" src="https://instagram.faju2-1.fna.fbcdn.net/vp/27b51c48392e18685847bbb7a1c6d62d/5CDAA9D8/t51.2885-15/e35/47690420_2245118082420309_4770280446898698684_n.jpg?_nc_ht=instagram.faju2-1.fna.fbcdn.net" /></Link>}
@@ -39,7 +39,7 @@ class Members extends React.Component {
               </Card>
           </Col>
 
-          <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{paddingTop: 20}}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{padding: 20}}>
             <Card
       style={{ width: 300 }}
       cover={<img alt="example" width="300" src="https://instagram.faju2-1.fna.fbcdn.net/vp/4f54a5a4e59880fd464c3250cec6c6f4/5CE58D42/t51.2885-15/e35/35616795_352566388603524_7125844068302585856_n.jpg?_nc_ht=instagram.faju2-1.fna.fbcdn.net" />}
@@ -53,7 +53,7 @@ class Members extends React.Component {
             </Card>
           </Col>
 
-          <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{paddingTop: 20}}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{padding: 20}}>
             <Card
       style={{ width: 300 }}
       cover={<img alt="example" style={{objectFit: 'cover', height: 300}} src="https://instagram.faju2-1.fna.fbcdn.net/vp/bf18faad86735735e0df1115b0e90c1d/5CF64F2E/t51.2885-15/e35/43517271_186244062290375_5165171792600248873_n.jpg?_nc_ht=instagram.faju2-1.fna.fbcdn.net" />}
@@ -66,7 +66,8 @@ class Members extends React.Component {
             />
             </Card>
           </Col>
-          <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{paddingTop: 20}}>
+
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{padding: 20}}>
             <Card
       style={{ width: 300 }}
       cover={<img alt="example" style={{objectFit: 'cover', height: 300}} src="https://instagram.faju2-1.fna.fbcdn.net/vp/62f4e4f708eb1d0b3aaa6c82fae8c493/5CE8F209/t51.2885-15/e35/47691794_1976364799323875_9020396370719787193_n.jpg?_nc_ht=instagram.faju2-1.fna.fbcdn.net" />}
@@ -80,7 +81,21 @@ class Members extends React.Component {
             </Card>
           </Col>
 
-          <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{paddingTop: 20}}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{padding: 20}}>
+            <Card
+      style={{ width: 300 }}
+      cover={<img alt="example" style={{objectFit: 'cover', height: 300}} src="https://instagram.faju2-1.fna.fbcdn.net/vp/e873dd443d6adfe0a196fd16adafb95d/5CFBA581/t51.2885-15/e35/39575481_457337251428521_3208226409881272320_n.jpg?_nc_ht=instagram.faju2-1.fna.fbcdn.net" />}
+      actions={[<Icon type="mail" />, <Icon type="behance" />, <Icon type="facebook" />, <Icon type="instagram" />]}
+            >
+            <Meta
+        avatar={<Avatar src="https://instagram.faju2-1.fna.fbcdn.net/vp/6dedc50543a5460fd8821a50aae75871/5CDA9716/t51.2885-19/s150x150/44634022_262011621183336_5816736047911927808_n.jpg?_nc_ht=instagram.faju2-1.fna.fbcdn.net" />}
+        title="Geraldo Neto"
+        description="Photographer, VFX and Movie Maker"
+            />
+            </Card>
+          </Col>
+
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{padding: 20}}>
             <Card
           style={{ width: 300 }}
           cover={<img alt="example" style={{objectFit: 'cover', height: 300}} src="https://instagram.faju2-1.fna.fbcdn.net/vp/f4e8db32ca1f75a7b8357f5a7634d777/5CF304F4/t51.2885-15/e35/16906504_102112550319095_3712616412661940224_n.jpg?_nc_ht=instagram.faju2-1.fna.fbcdn.net" />}
@@ -94,7 +109,7 @@ class Members extends React.Component {
             </Card>
           </Col>
 
-          <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{paddingTop: 20}}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{padding: 20}}>
             <Card
           style={{ width: 300 }}
           cover={<img alt="example" style={{objectFit: 'cover', height: 300}} src="https://instagram.faju2-1.fna.fbcdn.net/vp/a0d581279af24985ba61194f0cd734ef/5CDC30D0/t51.2885-19/s150x150/50237189_2344459189171336_8448097583426961408_n.jpg?_nc_ht=instagram.faju2-1.fna.fbcdn.net" />}
