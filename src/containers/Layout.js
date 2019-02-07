@@ -127,7 +127,7 @@ handleClick = (e) => {
      <Content className="content-col" style={{ margin: '24px 16px 0'}}>
           <>
           <Row gutter={24} type="flex" justify="space-around" align="middle">
-          <Col span={24} style={{ paddingTop: 24, paddingBottom: 40}}>
+          <Col span={24} style={{ paddingTop: 24, paddingBottom: 70}}>
           <div className="content-col">
         {this.props.children}
         </div>
@@ -138,8 +138,8 @@ handleClick = (e) => {
           <Footer style={{textAlign: "center", position: "fixed", bottom: 0, width: '100%'}}>
           <Row style={{}}>
             <p>
-            All rights of code reserved to <a href onClick={this.onClickEvent}>Ezequiel Kovacs</a> - 2019<br />
-            This page only share professional Jobs from the members of Guild Studios. Hereby All Rights reserved to Owner.
+            The code is Open Source write by <a href onClick={this.onClickEvent}>Ezequiel Kovacs</a> - 2019<br />
+            This page only share professional Jobs from the members of Guild Studios. Hereby All Rights of the content herewith is reserved to Owner.
             </p>
             <a href="https://mail.zoho.com/" target="_blank" style={{color: "#222222"}}><Icon type="mail" /> Login Email</a>
             </Row>
