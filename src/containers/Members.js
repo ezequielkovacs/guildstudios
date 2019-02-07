@@ -1,14 +1,28 @@
 import React from 'react';
 import {Col, Row, Carousel, Card, Icon, Avatar} from 'antd';
 import { Link, withRouter } from 'react-router-dom';
+import DocumentMeta from 'react-document-meta';
 
 const {Meta} = Card;
 
 class Members extends React.Component {
 
   render(){
-    document.title = "Guild Studios - Members and Allies";
+
+    const meta = {
+      title: 'Members and Allies: Professionals | Guild Studios',
+      description: 'Searching for good professionals in Aracaju Sergipe: Well You found us',
+      canonical: 'https://guildstudios.com.br/members',
+      meta: {
+        charset: 'utf-8',
+        name: {
+          keywords: 'programmer,djs,producer,photographer,game server'
+        }
+      }
+    };
+
     return(
+      <DocumentMeta {...meta}>
       <>
       <Row gutter={24} type="flex" justify="start" align="middle" style={{paddingRight: 10}}>
             <Col xs={{ span: 24 }} sm={{ span: 12 }} lg={{ span: 6 }} style={{paddingTop: 20}}>
@@ -100,6 +114,7 @@ class Members extends React.Component {
             <h2><i>"Ameaçar um homem de assédio é abuso de poder"<br />Kazuma Yuuji</i></h2>
             </div>
       </>
+      </DocumentMeta>
     )
   }
 }

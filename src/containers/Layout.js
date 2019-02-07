@@ -3,14 +3,12 @@ import { Layout, Menu, Breadcrumb, Col, Row, Icon, Carousel, Button, Divider, Dr
 import { Link, withRouter } from 'react-router-dom';
 
 
-
 const {
   Header, Content, Footer, Sider,
 } = Layout;
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
-
 
 const pStyle = {
   fontSize: 16,
@@ -129,7 +127,7 @@ handleClick = (e) => {
      <Content className="content-col" style={{ margin: '24px 16px 0'}}>
           <>
           <Row gutter={24} type="flex" justify="space-around" align="middle">
-          <Col span={24} style={{ paddingTop: 24, marginLeft: "-40px"}}>
+          <Col span={24} style={{ paddingTop: 24, marginLeft: "-40px", paddingBottom: 40}}>
           <div className="content-col">
         {this.props.children}
         </div>
@@ -137,13 +135,15 @@ handleClick = (e) => {
           </Row>
           </>
         </Content>
-        <Footer style={{textAlign: "center"}}>
-        <Row>
-          <p>
-          All rights of code reserved to <a href onClick={this.onClickEvent}>Ezequiel Kovacs</a> - 2019<br />
-          This page only share professional Jobs from the members of Guild Studios. Hereby All Rights reserved to Owner.
-          </p>
-          </Row>
+          <Footer style={{textAlign: "center", position: "fixed", bottom: 0, width: '100%'}}>
+          <Row style={{}}>
+            <p>
+            All rights of code reserved to <a href onClick={this.onClickEvent}>Ezequiel Kovacs</a> - 2019<br />
+            This page only share professional Jobs from the members of Guild Studios. Hereby All Rights reserved to Owner.
+            </p>
+            </Row>
+            </Footer>
+
           <Drawer
                 width="640"
                 placement="right"
@@ -246,7 +246,6 @@ handleClick = (e) => {
                   </Col>
                 </Row>
               </Drawer>
-        </Footer>
       </Layout>
       </Layout>
     );

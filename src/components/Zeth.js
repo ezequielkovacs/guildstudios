@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Row, Icon, Button, Divider } from 'antd';
+import DocumentMeta from 'react-document-meta';
 
 const pStyle = {
   fontSize: 16,
@@ -35,8 +36,19 @@ const DescriptionItem = ({ title, content }) => (
 class Me extends React.Component {
 
   render(){
-    document.title = "Ezequiel Kovacs - CEO";
+    const meta = {
+      title: 'Programmer of Guild Studios and CEO: Curriculum Ezequiel Kovacs | Guild Studios',
+      description: 'Programmer,data structures, software engineering, operating systems, computer networks, databases and more, look my portfolio if You like hire me...',
+      canonical: 'https://guildstudios.com.br/members/kovacs',
+      meta: {
+        charset: 'utf-8',
+        name: {
+          keywords: 'ezequiel kovacs,programmer,databases,portfolio, data structures, ceo'
+        }
+      }
+    };
     return(
+      <DocumentMeta {...meta}>
       <>
       <Row style={{paddingTop: 30}}>
       <Col span={6} justify="end">
@@ -140,6 +152,7 @@ class Me extends React.Component {
         </Col>
       </Row>
       </>
+      </DocumentMeta>
     )
   }
 }
