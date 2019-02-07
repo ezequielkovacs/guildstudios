@@ -99,7 +99,7 @@ class Members extends React.Component {
             <Card
           style={{ width: 300 }}
           cover={<img alt="example" style={{objectFit: 'cover', height: 300}} src="https://instagram.faju2-1.fna.fbcdn.net/vp/f4e8db32ca1f75a7b8357f5a7634d777/5CF304F4/t51.2885-15/e35/16906504_102112550319095_3712616412661940224_n.jpg?_nc_ht=instagram.faju2-1.fna.fbcdn.net" />}
-          actions={[<a href="mailto:alisul@guildstudios.com.br" target="_blank"><Icon type="mail" /></a>, <a href="https://www.facebook.com/Alfa.Veltro" target="_blank"><Icon type="facebook" /></a>, <a href="#"><Icon type="database" /></a>, <a href="#"><Icon type="link" /></a>]}
+          actions={[<a href="mailto:alisul@guildstudios.com.br" target="_blank"><Icon type="mail" /></a>, <a href="https://www.facebook.com/Alfa.Veltro" target="_blank"><Icon type="facebook" /></a>, <a href="https://baiak.guildstudios.com.br/" target="_blank"><Icon type="database" /></a>, <a href="https://ndbostorm.guildstudios.com.br/" target="_blank"><Icon type="link" /></a>]}
             >
             <Meta
           avatar={<Avatar src="https://instagram.faju2-1.fna.fbcdn.net/vp/cf2ec175b4e3dd517e3b7969c3e1cba5/5CFE0877/t51.2885-19/s150x150/26870384_155653858488135_6233068041324724224_n.jpg?_nc_ht=instagram.faju2-1.fna.fbcdn.net" />}

@@ -29,7 +29,6 @@ class Share extends React.Component {
 
 
       <DocumentMeta {...meta}>
-
       <>
       <Row>
       <Col xs={{span: 24}} lg={{span: 6}}>
@@ -94,7 +93,6 @@ class Share extends React.Component {
 
       </Row>
       </>
-
 
       <>
       <Card title="Bumpz Music - Fix Point (Original Mix)" extra={<a href="https://soundcloud.com/bumpzmusic" target="_blank">Soundcloud</a>}>
