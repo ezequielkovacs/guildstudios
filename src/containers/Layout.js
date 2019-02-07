@@ -127,7 +127,7 @@ handleClick = (e) => {
      <Content className="content-col" style={{ margin: '24px 16px 0'}}>
           <>
           <Row gutter={24} type="flex" justify="space-around" align="middle">
-          <Col span={24} style={{ paddingTop: 24, paddingBottom: 70}}>
+          <Col span={24} style={{ paddingTop: 24, paddingBottom: 140, paddingRight: 40}}>
           <div className="content-col">
         {this.props.children}
         </div>
